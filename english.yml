@@ -202,7 +202,6 @@ status_no: '&cHAYIR'
 
 #Added in 0.03:
 msg_err_no_money: '&cBankada yeterli para yok.'
-msg_err_no_money: '&cBankada yeterli para yok.'
 
 #Added in 0.04:
 msg_war_siege_peaceful_town_total_switches: '&b%d peaceful town%s %s peacefully switched nations.'
@@ -254,5 +253,5 @@ dynmap_siege_war_chest: 'Savaş Sandığı: %s'
 msg_inventory_degrade_warning: '&4DİKKAT: &cDayanıklılık indirgenmesi nedeniyle bazı donanımlarınız kırılmak üzere.'
 msg_swa_remove_siege_success: '&bKuşatma başarıyla kaldırıldı.'
 msg_war_siege_occupied_towns_cannot_surrender: '&cİşgal altındaki kasabalar teslim olamaz.'
-msg_you_received_war_sickness: '&cBu kuşatmanın bir katılımcısı değilsiniz ve Kuşatma Bölgesi'nde olamazsınız. Lütfen savaş karşıtlığını ortadan kaldırmak için alandan uzaklaşın. Savaş karşıtlığının yaygın nedenleri: barışçıl bir kasabada olmak, askeri rütbeye sahip olmamak veya iki tarafla da müttefik olmamak.'
+msg_you_received_war_sickness: '&cBu kuşatmanın bir katılımcısı değilsiniz ve Kuşatma Bölgesi''nde olamazsınız. Lütfen savaş karşıtlığını ortadan kaldırmak için alandan uzaklaşın. Savaş karşıtlığının yaygın nedenleri: barışçıl bir kasabada olmak, askeri rütbeye sahip olmamak veya iki tarafla da müttefik olmamak.'
 msg_you_will_get_sickness: '&cBu kuşatmanın bir katılımcısı değilsiniz ve Kuşatma Bölgesinde olamazsınız. Lütfen uzaklaşın, yoksa %s saniye içinde savaş karşıtlığına yakalanacaksınız.'
