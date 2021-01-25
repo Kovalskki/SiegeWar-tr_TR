@@ -6,7 +6,8 @@ Dikkat etmeniz gereken nokta sadece çevrilen satırları kopyalayıp yapıştı
 Çeviriye destek olmak ve sorularınız için discord sunucusuna katılabilirsiniz.<br/>
 
 Projenin gelişimi bu repo üzerinden devam edecektir. <br/>
-Çevirinin tamamlandığına karar verdiğimizde https://github.com/TownyAdvanced/SiegeWar/tree/master/src/main/resources SiegeWar projesine dahil edilecektir.
+Çevirinin tamamlandığına karar verdiğimizde SiegeWar projesine dahil edilecektir. <br/>
+https://github.com/TownyAdvanced/SiegeWar/tree/master/src/main/resources
 
 Towny Geliştiricileri Discord Sunucusu
 https://discord.gg/vwsp5HEBbx
