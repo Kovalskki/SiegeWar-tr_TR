@@ -249,3 +249,10 @@ dynmap_siege_status_pending_surrender: 'Teslim Olma Bekleniyor'
 dynmap_siege_status_pending_abandon: 'Geri Çekilme Bekleniyor'
 dynmap_siege_time_left: 'Kalan Zaman: %s'
 dynmap_siege_war_chest: 'Savaş Sandığı: %s'
+
+#Added in 0.06:
+msg_inventory_degrade_warning: '&4DİKKAT: &cDayanıklılık indirgenmesi nedeniyle bazı donanımlarınız kırılmak üzere.'
+msg_swa_remove_siege_success: '&bKuşatma başarıyla kaldırıldı.'
+msg_war_siege_occupied_towns_cannot_surrender: '&cİşgal altındaki kasabalar teslim olamaz.'
+msg_you_received_war_sickness: '&cBu kuşatmanın bir katılımcısı değilsiniz ve Kuşatma Bölgesi'nde olamazsınız. Lütfen savaş karşıtlığını ortadan kaldırmak için alandan uzaklaşın. Savaş karşıtlığının yaygın nedenleri: barışçıl bir kasabada olmak, askeri rütbeye sahip olmamak veya iki tarafla da müttefik olmamak.'
+msg_you_will_get_sickness: '&cBu kuşatmanın bir katılımcısı değilsiniz ve Kuşatma Bölgesinde olamazsınız. Lütfen uzaklaşın, yoksa %s saniye içinde savaş karşıtlığına yakalanacaksınız.'
