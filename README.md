@@ -5,7 +5,8 @@ SiegeWar eklentisi için herkese açık Türkçe çeviri projesidir.
 Dikkat etmeniz gereken nokta sadece çevrilen satırları kopyalayıp yapıştırmanızdır.<br/>
 Çeviriye destek olmak ve sorularınız için discord sunucusuna katılabilirsiniz.<br/>
 
-Projenin gelişimi bu repo üzerinden devam edecektir. Çevirinin tamamlandığına karar verdiğimizde https://github.com/TownyAdvanced/SiegeWar/tree/master/src/main/resources reposuna yani SiegeWar eklentisine dahil edeceğiz.
+Projenin gelişimi bu repo üzerinden devam edecektir. <br/>
+Çevirinin tamamlandığına karar verdiğimizde https://github.com/TownyAdvanced/SiegeWar/tree/master/src/main/resources SiegeWar projesine dahil edilecektir.
 
 Towny Geliştiricileri Discord Sunucusu
 https://discord.gg/vwsp5HEBbx
