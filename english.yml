@@ -1,5 +1,5 @@
 name: SiegeWar
-version: 0.06
+version: 0.07
 language: english
 author: Goosius
 website: 'http://townyadvanced.github.io/'
@@ -50,7 +50,7 @@ msg_siege_war_town_bankrupted_from_plunder: '&6[Savaş]&b %s kasabası, %s taraf
 msg_siege_war_nation_defeated: '&6[Savaş]&b %s yenildi!'
 msg_siege_war_attacking_troops_at_siege_banner: '&6[Savaş]&b Kuşatma! %s > İşgalciler kuşatma bayrağında!'
 msg_siege_war_defending_troops_at_siege_banner: '&6[Savaş]&b Kuşatma! %s > Savunmacılar kuşatma bayrağında.'
-msg_siege_war_banner_control_session_started: '&6[Savaş]&b Saldırı cephesi açıldı. Kuşatma bayrağına (%d blok yatay, %d blok dikey) kadar yakın, kasabanın dışında ve yerde olmalıdır. %s sürede. Süreç başarılı olursa, tarafınız için bayrak kontrolü elde edeceksiniz (veya bayrak kontrol listesine ekleneceksiniz)'
+msg_siege_war_banner_control_session_started: '&6[Savaş]&b Saldırı cephesi açıldı. Kuşatma bayrağı (%d blok yatay, %d blok dikey) kadar yakın, kasabanın dışında ve yerde olmalıdır. %s sürede. Süreç başarılı olursa, tarafınız için bayrak kontrolü elde edeceksiniz (veya bayrak kontrol listesine ekleneceksiniz)'
 msg_siege_war_banner_control_session_success: '&6[Savaş]&b Bayrak kontrolü başarılı! Bayrak kontrol listesine eklendiniz.'
 msg_siege_war_banner_control_gained_by_attacker: '&6[Savaş]&b Kuşatma %s > İşgalciler bayrak kontrolünü elde etti.'
 msg_siege_war_banner_control_gained_by_defender: '&6[Savaş]&b Kuşatma %s > Savunucular bayrak kontrolünü elde etti.'
@@ -195,7 +195,7 @@ nation_help_11 : 'Bütün ulus iadelerini kabul et.'
 
 #Added in 0.02:
 admin_help_1: 'Dil ve yapılandırma dosyalarını geri yükleyin.'
-config_and_lang_file_reloaded_successfully: 'Yapılandırma ve dil dosyaları başarıyla tamamlandı.'
+config_and_lang_file_reloaded_successfully: 'Yapılandırma ve dil dosyaları başarıyla yeniden yüklendi.'
 config_and_lang_file_could_not_be_loaded: 'Yeniden yükleme başarısız. Ayrıntılar için dosyalara bakın.'
 status_yes: '&aEVET'
 status_no: '&cHAYIR'
@@ -255,3 +255,6 @@ msg_swa_remove_siege_success: '&bKuşatma başarıyla kaldırıldı.'
 msg_war_siege_occupied_towns_cannot_surrender: '&cİşgal altındaki kasabalar teslim olamaz.'
 msg_you_received_war_sickness: '&cBu kuşatmanın bir katılımcısı değilsiniz ve Kuşatma Bölgesi''nde olamazsınız. Lütfen savaş karşıtlığını ortadan kaldırmak için alandan uzaklaşın. Savaş karşıtlığının yaygın nedenleri: barışçıl bir kasabada olmak, askeri rütbeye sahip olmamak veya iki tarafla da müttefik olmamak.'
 msg_you_will_get_sickness: '&cBu kuşatmanın bir katılımcısı değilsiniz ve Kuşatma Bölgesinde olamazsınız. Lütfen uzaklaşın, yoksa %s saniye içinde savaş karşıtlığına yakalanacaksınız.'
+
+#Added in 0.07:
+msg_war_siege_peaceful_town_cannot_revolt_zero_or_one_unsieged_guardian_towns_nearby:  '&cŞu anda isyan edemezsiniz, çünkü yakınlarda 2''den az imzasız koruyucu kasaba var (%d parça içinde). Koruyucu bir kasaba, en az %d araziye sahip, herkese açık bir ülkede barışçıl olmayan bir kasabadır.'
