@@ -29,7 +29,7 @@ msg_err_command_disable: '&cBu komutu kullanmak için yeterli yetkiye sahip değ
 #Added in (SiegeWar version)
 #Siege War happy-path messages
 msg_siege_war_revolt: '&b%s liderliğindeki %s halkı, %s işgal kuvvetlerine karşı ayaklanıp bağımsızlıklarını ilan etti!'
-msg_siege_war_siege_started_neutral_town: '&6[Savaş]&b %s kasabasının işgal kuvvetleri %s kasabasına saldırdı. Kuşatma başladı!'
+msg_siege_war_siege_started_neutral_town: '&6[Savaş]&b %s ulusunun işgal kuvvetleri %s kasabasına saldırdı. Kuşatma başladı!'
 msg_siege_war_siege_started_nation_town: '&6[Savaş]&b %s ulusundan %s kasabasının işgal kuvvetleri %s kasabasına saldırdı. Kuşatma başladı!'
 msg_siege_war_attack_pay_war_chest: '&6[Savaş]&b %s tarafından %s değerinde bir ganimet sandığı oluşturuldu. Galip gelen bu parayı alır.'
 msg_siege_war_attack_recover_war_chest: '&6[Savaş]&b Ganimet sandığı %s tarafından %s değeriyle ele geçirildi.'
@@ -43,8 +43,9 @@ msg_siege_war_town_surrender: '&6[Savaş]&b %s kasabası, %s kasabasının işga
 msg_siege_war_pending_town_surrender: '&6[Savaş]&b %s kasabası, %s kasabasının işgal kuvvetlerine teslim oldu. İşgalciler %s içinde kazanacak!'
 msg_siege_war_neutral_town_captured: '&6[Savaş]&b %s kasabası %s kasabası tarafından ele geçirildi!'
 msg_siege_war_nation_town_captured: '&6[Savaş]&b Daha önce %s ulusuna ait olan %s kasabası, %s tarafından ele geçirildi!'
-msg_siege_war_neutral_town_plundered: '&6[Savaş]&b %s kasabası, %s tarafından yağmalandı ve %s altın kaybetti!'
-msg_siege_war_nation_town_plundered: '&6[Savaş]&b %s kasabası, %s tarafından yağmalandı ve %s altın kaybetti!'
+# yağmalanan miktar yağmalayan
+msg_siege_war_neutral_town_plundered: '&6[Savaş]&b %s kasabası, %s altın kaybetti çünkü %s tarafından yağmalandı!'
+msg_siege_war_nation_town_plundered: '&6[Savaş]&b %s kasabası, %s altın kaybetti çünkü %s tarafından yağmalandı!'
 msg_siege_war_town_ruined_from_plunder: '&6[Savaş]&b %s kasabası, %s kasabası tarafından yağmalanarak yıkıldı!'
 msg_siege_war_town_bankrupted_from_plunder: '&6[Savaş]&b %s kasabası, %s tarafından yağmalandı ve iflas etti!'
 msg_siege_war_nation_defeated: '&6[Savaş]&b %s yenildi!'
@@ -129,7 +130,7 @@ status_town_siege_status_in_progress: 'Savaş devam ediyor'
 status_town_siege_status_attacker_win: 'İşgalciler kazandı - %s'
 status_town_siege_status_defender_win: 'Kasabanız kuşatmayı püskürttü'
 status_town_siege_status_attacker_abandon: 'İşgalciler geri çekildi'
-status_town_siege_status_defender_surrender: 'Kasaba %s içinde teslim olacak'
+status_town_siege_status_defender_surrender: '%s ulusuna teslim oldu'
 status_town_siege_status_pending_attacker_abandon: 'işgalcilerin %s içinde geri çekilmesi bekleniyor'
 status_town_siege_status_pending_defender_surrender: 'kasabanın %s içinde teslim olması bekleniyor'
 
