@@ -1,5 +1,5 @@
 name: SiegeWar
-version: 0.07
+version: 0.08
 language: english
 author: Goosius
 website: 'http://townyadvanced.github.io/'
@@ -22,6 +22,7 @@ description: >
 # Purple = &5, Gold = &6, LightGray = &7, Gray = &8
 # DarkPurple = &9, LightGreen = &a, LightBlue = &b
 # Rose = &c, LightPurple = &d, Yellow = &e, White = &f
+
 
 plugin_prefix: '&f[&6SiegeWar&f] '
 msg_err_command_disable: '&cBu komutu kullanmak için yeterli yetkiye sahip değilsin!'
@@ -259,3 +260,17 @@ msg_you_will_get_sickness: '&cBu kuşatmanın bir katılımcısı değilsiniz ve
 
 #Added in 0.07:
 msg_war_siege_peaceful_town_cannot_revolt_zero_or_one_unsieged_guardian_towns_nearby:  '&cŞu anda isyan edemezsiniz, çünkü yakınlarda 2''den az imzasız koruyucu kasaba var (%d parça içinde). Koruyucu bir kasaba, en az %d araziye sahip, herkese açık bir ülkede barışçıl olmayan bir kasabadır.'
+
+#Added in 0.08:
+status_nation_town_stats: '&2Kasaba Kazanılan/Kaybedilen: &a%d&2/&a%d'
+status_nation_plunder_stats: '&2Yağma Kazançları/Kayıpları: &a%d&2/&a%d'
+status_nation_enemy_nations_defeated: '&2Düşman Milletler Yenildi: &a%d'
+
+msg_swa_set_towns_gained_success: '&bBaşarıyla kazanılan kasabalar %s için %d olarak ayarlandı.'
+msg_swa_set_towns_lost_success: '&bBaşarıyla kaybedilen kasabalar %s için %d olarak ayarlandı.'
+msg_swa_set_plunder_gained_success: '&bBaşarıyla %s için yağma kazancı %d olarak ayarlandı.'
+msg_swa_set_plunder_lost_success: '&bBaşarıyla %s için yağma kaybı %d olarak ayarlandı.'
+msg_swa_set_nationdefeats_success: '&bUlus yenilgileri %s için başarıyla %d olarak ayarlandı.'
+msg_err_nation_not_registered: '&c%s ulusu kayıtlı değil.'
+
+msg_err_cannot_remove_enemy: '&cSiegeWar aktifken savaşılan ulus düşmanlar arasından çıkarılamaz!'
