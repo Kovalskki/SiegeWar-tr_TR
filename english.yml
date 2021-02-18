@@ -1,5 +1,5 @@
 name: SiegeWar
-version: 0.08
+version: 0.09
 language: english
 author: Goosius
 website: 'http://townyadvanced.github.io/'
@@ -22,7 +22,6 @@ description: >
 # Purple = &5, Gold = &6, LightGray = &7, Gray = &8
 # DarkPurple = &9, LightGreen = &a, LightBlue = &b
 # Rose = &c, LightPurple = &d, Yellow = &e, White = &f
-
 
 plugin_prefix: '&f[&6SiegeWar&f] '
 msg_err_command_disable: '&cBu komutu kullanmak için yeterli yetkiye sahip değilsin!'
@@ -274,3 +273,18 @@ msg_swa_set_nationdefeats_success: '&bUlus yenilgileri %s için başarıyla %d o
 msg_err_nation_not_registered: '&c%s ulusu kayıtlı değil.'
 
 msg_err_cannot_remove_enemy: '&cSiegeWar aktifken savaşılan ulus düşmanlar arasından çıkarılamaz!'
+
+#Added in 0.09
+nation_help_11 : 'Şunlardan alacağınız herhangi bir geliri toplayın: yağma, askeri maaş veya ulus geri ödemeleri.'
+nation_help_12 : 'Askerlerinize ödeme yapın. Verilen miktar rütbe üstünlüğüne göre dağıtılacaktır.'
+msg_siege_war_nation_refund_available: "Şimdi size %s tutarında bir ulus geri ödemesi alınabilir. '/sw collect' yazarak ödemeyi alabilirsin."
+msg_siege_war_plunder_available: "%s değerinde yağma artık toplanılabilir. '/sw collect' yazarak toplayabilirsin."
+msg_siege_war_military_salary_available: "%s tutarında askeri maaş artık sizin için alınabilir. '/sw collect' kullanılarak alabilirsiniz."
+msg_siege_war_nation_refund_collected: "%s tutarında ulus geri ödemesi aldınız."
+msg_siege_war_plunder_collected: "%s değerinde ganimet topladınız."
+msg_siege_war_military_salary_collected: "%s askeri maaş aldınız."
+msg_err_siege_war_collect_unavailable: "Yağmalardan, askeri maaştan veya ulus iadelerinden size ödenecek bir gelir yok."
+msg_err_siege_war_no_soldiers_to_pay: "Ödeme yapılacak asker yok."
+msg_err_siege_war_not_enough_nation_funds_to_pay: "Ulusun bu miktarı ödeyecek kadar altını yok."
+msg_siege_war_soldiers_paid: "Ulusun askerlerine rütbeye göre dağıtılan toplamda %s altın ödendi."
+
