@@ -1,5 +1,5 @@
 name: SiegeWar
-version: 0.09
+version: 0.14
 language: english
 author: Goosius
 website: 'http://townyadvanced.github.io/'
@@ -288,3 +288,65 @@ msg_err_siege_war_no_soldiers_to_pay: "Ödeme yapılacak asker yok."
 msg_err_siege_war_not_enough_nation_funds_to_pay: "Ulusun bu miktarı ödeyecek kadar altını yok."
 msg_siege_war_soldiers_paid: "Ulusun askerlerine rütbeye göre dağıtılan toplamda %s altın ödendi."
 
+
+#Added in 0.10
+msg_err_cannot_fire_no_cannon_session: "Rütbeli bir kasaba üyesi top atış emri verene kadar atış yapamazsın."
+msg_err_cannon_in_two_towns: "&cTopların iki kasaba arasında kalmış. Lütfen topunun sadece bir kasabada olduğuna emin ol."
+msg_err_cannot_toggle_explosions_due_to_cannon_session: "&cMevcut top atış emri sona erene kadar kasabanın patlamalarını değiştiremezsin."
+
+#Added in 0.11
+msg_err_invalid_bool: "&cGeçersiz seçenek. Seçenekler: açık/kapalı"
+msg_beacon_preference_set: "&bFener tercihi %s olarak ayarlandı."
+
+# Misc
+msg_na: 'N/A'
+
+#Town screen
+status_town_siege_status_siege_balance: '&2 > Hesaptaki Altın: &a%d'
+status_town_siege_status_warchest: '&2 > Savaş Sandığı: &a%s'
+
+#Death points
+msg_siege_war_attacker_death: '&b%s Kuşatması > Saldıran Öldü > %s > Savaş Puanı -%d'
+msg_siege_war_defender_death: '&b%s Kuşatması > Savunan Öldü > %s > Savaş Puanı +%d'
+
+#Battle sessions
+status_town_siege_battle: '&2Savaş'
+status_town_siege_battle_time_remaining: '&2 > Kalan Zaman: &a%s'
+status_town_siege_battle_score: '&2 > Puanlar: &a%s &2/ &a%s'
+msg_war_siege_battle_session_started: "&bYeni bir savaş zamanı başladı."
+msg_war_siege_battle_session_ended_with_battles: "&bMevcut savaş zamanı sona erdi. Savaşlarını kazanan takımlar:"
+msg_war_siege_battle_session_ended_without_battles: "&bMevcut savaş zamanı sona erdi. Hiç savaş olmadı."
+msg_war_siege_battle_session_ended_attacker_result: "&b * Saldıranlar @ %s (%s)"
+msg_war_siege_battle_session_ended_defender_result: "&b * Savunanlar @ %s (%s)"
+msg_war_siege_battle_session_ended_draw_result: "&b * Berabere @ %s (0)"
+msg_war_siege_battle_session_break_cannot_get_banner_control: "&cSavaş zamanı başlayana kadar bayrak kontrolü alınamaz. Sonraki savaş zamanı %s içerisinde başlayacak."
+
+#Hud
+hud_siege_balance: 'Kuşatma Skoru: '
+hud_battle_attacker_points: 'SVŞ SAL Puanı: '
+hud_battle_defender_points: 'SVŞ SAV Puanı: '
+hud_battle_time_remaining: 'Kalan SVŞ Zamanı: '
+
+#Dynmap
+dynmap_battle_points: 'Kuşatma Skoru: %d'
+dynmap_siege_battle_score: 'Savaş Puanları: %s / %s'
+dynmap_siege_battle_time_left: 'Kalan Savaş Zamanı: %s'
+
+#Banner control
+msg_siege_war_banner_control_reversed_by_attacker: '&b%s Kuşatması > Saldıranlar bayrak kontrolünü savunanlardan devraldı!.'
+msg_siege_war_banner_control_reversed_by_defender: '&b%s Kuşatması > Savunanlar bayrak kontrolünü saldıranlardan devraldı!.'
+msg_siege_war_banner_control_reversal_bonus: ' Devralma Bonusu: %s%d'
+
+#Admin
+msg_swa_set_siege_balance_success: '&bKuşatma Skoru başarıyla %d %s olarak ayarlandı.'
+
+#Added in 0.13
+msg_siege_war_banner_control_session_paused: '&cBayrak kontrolün duraklatıldı çünkü alanda düşmanlar var. Bayrak kontrolüne devam etmek için alandaki düşmanları temizle.'
+msg_siege_war_version: '&bMevcut KuşatmaSavaşı versiyonu: %s.'
+
+#Added in 0.14
+msg_err_cannot_alter_blocks_below_banner_in_timed_point_zone: 'Belirlenen puan zamanı boyunca bayrağın yüksekliğinin altında blok koyamazsın veya kıramazsın.'
+msg_siege_war_banner_control_session_started: '&bBayrak kontrol zamanı başladı. Kuşatma bayrağına yakın kal (yatay olarak %d blok, dikey olarak %d blok), %s boyunca kasaba sınırlarının dışında ve uçmuyor olmalısın. Eğer başarılı olursan, senin tarafın bayrak kontrolünü kazanacak (veya bayrak kontorlüne katılacaksın).'
+msg_siege_war_banner_control_session_started_with_altitude: '&bBayrak kontrol zamanı başladı. Kuşatma bayrağına yakın kal (yatay olarak %d blok, dikey olarak %d blok), %s boyunca kasaba sınırlarının dışında ve uçmuyor olmalısın. Bayrak yüksekliğinin altına inemezsin. Eğer başarılı olursan, senin tarafın bayrak kontrolünü kazanacak (veya bayrak kontorlüne katılacaksın).'
+msg_siege_war_banner_control_session_failure: '&cBayrak kontrolü başarısız!. Bunun sebepleri genelde: ölmek, bayraktan çok uzaklaşmak, kasaba sınırlarına girmek veya uçmaktır.'
+msg_siege_war_banner_control_session_failure_with_altitude: '&cBayrak kontrolü başarısız!. Bunun sebepleri genelde: ölmek, bayraktan çok uzaklaşmak, bayrak yüksekliğinin altına düşmek, kasaba sınırlarına girmek veya uçmaktır.'
