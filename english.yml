@@ -1,5 +1,5 @@
 name: SiegeWar
-version: 0.14
+version: 0.19
 language: english
 author: Goosius
 website: 'http://townyadvanced.github.io/'
@@ -350,3 +350,182 @@ msg_siege_war_banner_control_session_started: '&bBayrak kontrol zamanı başlad�
 msg_siege_war_banner_control_session_started_with_altitude: '&bBayrak kontrol zamanı başladı. Kuşatma bayrağına yakın kal (yatay olarak %d blok, dikey olarak %d blok), %s boyunca kasaba sınırlarının dışında ve uçmuyor olmalısın. Bayrak yüksekliğinin altına inemezsin. Eğer başarılı olursan, senin tarafın bayrak kontrolünü kazanacak (veya bayrak kontorlüne katılacaksın).'
 msg_siege_war_banner_control_session_failure: '&cBayrak kontrolü başarısız!. Bunun sebepleri genelde: ölmek, bayraktan çok uzaklaşmak, kasaba sınırlarına girmek veya uçmaktır.'
 msg_siege_war_banner_control_session_failure_with_altitude: '&cBayrak kontrolü başarısız!. Bunun sebepleri genelde: ölmek, bayraktan çok uzaklaşmak, bayrak yüksekliğinin altına düşmek, kasaba sınırlarına girmek veya uçmaktır.'
+
+##### Added in 0.15
+
+# Town Merging
+msg_err_cannot_merge_towns: '&cKuşatma altındaki bir kasaba birleştirilemez!'
+
+# General
+siege.name: '%s vs %s'
+msg_err_action_disable: '&cBu işlem için yeterli izne sahip değilsiniz.'
+msg_err_unknown_town: '&cBilinmeyen Kasaba'
+msg_err_unknown_nation: '&cBilinmeyen Ulus'
+
+# Siege Types
+siege_type_conquest: 'Fetih'
+siege_type_liberation: 'Kurtuluş'
+siege_type_revolt: 'İsyan'
+siege_type_suppression: 'Bastırma'
+
+# Dynmap
+dynmap_siege_title: 'Kuşatma: %s vs %s'
+dynmap_siege_type: 'Tür: %s'
+dynmap_siege_town: 'Kasaba: %s'
+dynmap_siege_balance: 'Kuşatma Dengesi: %d'
+dynmap_siege_war_chest: 'Savaş Sandığı: %s'
+dynmap_siege_battle_points: 'Savaş Puanları: %s / %s'
+
+# HUD
+hud_siege_type: 'Tür: '
+hud_battle_attacker_points: 'ATK BAT Puanları: '
+hud_battle_defender_points: 'DEF BAT Puanları: '
+
+# Starting sieges
+msg_err_cannot_start_siege_attack_at_peaceful_town: '&cBarışçıl bir kasabaya kuşatma başlatamazsınız.'
+msg_err_cannot_start_siege_at_ruined_town: '&cYıkık bir kasabaya kuşatma başlatamazsın.'
+msg_err_cannot_start_siege_due_to_siege_immunity: '&cŞimdi bir kuşatma başlatamazsınız çünkü yakındaki kasabanın kuşatma bağışıklığı var.'
+msg_err_cannot_start_revolt_siege_as_town_is_unoccupied: '&cKasaba işgal edilmiş bir durumda olmadığı için isyan kuşatması başlatamazsınız.'
+msg_err_siege_war_cannot_attack_occupied_town_non_enemy_nation: '&cO kasabanın işgalcisi ulusunuzun düşmanı olmadığı sürece işgal edilmiş bir şehre saldıramazsınız..'
+msg_conquest_siege_started_neutral_town: '&b%s''ye ait bir ordu %s kasabasına saldırdı. BİR FETİH başladı!'
+msg_conquest_siege_started_nation_town: '&b%s''ye ait bir ordu %s''ye %s saldırdı. BİR FETİH başladı!'
+msg_liberation_siege_started_neutral_town: '&b%s''ye ait bir ordu, işgali ortadan kaldırmak için %s saldırısında %s saldırdı. BİR KURTARMA OPERASYONU başladı!'
+msg_liberation_siege_started_nation_town: '&b%s''ye ait bir ordu, işgali ortadan kaldırmak için% s saldırısında %s saldırdı. BİR KURTARMA OPERASYONU başladı!'
+msg_revolt_siege_started_neutral_town: '&b%s kasaba halkı, %s işgalci ordusuna karşı ayaklandı. İSYAN KUŞATMASI başladı!'
+msg_revolt_siege_started_nation_town: '&bAnavatanı %s olan %s kasabasının halkı, %s işgalci ordusuna karşı ayaklandı. İSYAN KUŞATMASI başladı!'
+msg_suppression_siege_started_neutral_town: '&b%s ülkesi, %s konumundaki isyancı faaliyetlerini ortadan kaldırmak için harekete geçti. BİR BASTIRMA OPERASYONU başladı!'
+msg_suppression_siege_started_nation_town: '&b%s ülkesi, %s tarafından %s konumundaki isyancı faaliyetlerini ortadan kaldırmak için harekete geçti. BİR BASTIRMA OPERASYONU başladı!'
+
+# Banner Control
+msg_siege_war_defending_troops_at_siege_banner: '&b%s üzerinde kuşatma > Savunucular kuşatma bandında.'
+
+# Town screen
+status_town_occupying_nation: '&2İşgal Eden Ulus: &a%s'
+status_town_siege: '&2Kuşatma:'
+status_town_siege_type: '&2 > Tür: &a%s'
+status_town_siege_status: '&2 > Durum: &a%s'
+status_town_siege_attacker: '&2 > Saldıran: &a%s'
+status_town_siege_defender: '&2 > Savunan: &a%s'
+status_town_siege_battle_points: '&2 > Puanlar: &a%s &2/ &a%s'
+status_town_siege_status_attacker_win: 'Saldıran Zaferi'
+status_town_siege_status_defender_win: 'Savunmacı Zaferi'
+status_town_siege_status_attacker_abandon: 'Saldıran Terk etti'
+status_town_siege_status_pending_attacker_abandon: 'Saldıran Beklemede, %s süre'
+status_town_siege_status_defender_surrender: 'Savunan Teslim Oldu'
+status_town_siege_status_pending_defender_surrender: '%s içinde Savunan Taraf Teslim Olmayı Bekliyor'
+status_town_siege_status_plundered: '&2 > Kasaba Yağmalanmış: %s'
+status_town_siege_status_invaded: '   &2Kasaba İstila Edildi: %s'
+
+# Siege statuses
+siege_status_attacker_abandon: 'Saldıran Terk etti'
+siege_status_defender_surrender: 'Savunan Teslim Oldu'
+siege_status_pending_attacker_abandon: 'Saldırganın Terk Etmesi Bekleniyor'
+siege_status_pending_defender_surrender: 'Savunmacı Teslim Olmayı Bekliyor'
+
+# Nation screen
+status_nation_occupied_home_towns: '&2İşgal Altındaki Memleketler &a[%s]&2: &f'
+status_nation_occupied_foreign_towns: '&2İşgal Edilmiş Yabancı Şehirler &a[%s]&2: &f'
+status_nation_offensive_sieges: '&2Saldırı Kuşatmaları &a[%s]&2: &f'
+status_nation_defensive_sieges: '&2Savunma Kuşatmaları &a[%s]&2: &f'
+
+# Surrendering defences
+msg_conquest_siege_defender_surrender: '&b%s''de Fetih Kışatması > Kasaba %s ordusuna teslim oldu.'
+msg_liberation_siege_defender_surrender: '&b%s''de Kurtuluş Kuşatması > İşgalci %s ordusu %s ordusuna teslim oldu ve işgal kaldırıldı.'
+msg_revolt_siege_defender_surrender: '&b%s''de İsyan Kuşatması > %s işgalci ordusu isyancılara teslim oldu ve işgal kaldırıldı.'
+msg_suppression_siege_defender_surrender: '&b%s''de Bastırma Kuşatması > Kasaba, %s işgalci ordusuna teslim oldu. '
+
+# Abandoning attacks
+msg_conquest_siege_attacker_abandon: '&b%s''de Fetih Kışatması > %s ordusu saldırısından vazgeçti.'
+msg_liberation_siege_attacker_abandon: '&b%s''de Kurtuluş Kuşatması > %s ordusu, kasabayı %s''den kurtarma girişiminden vazgeçti.'
+msg_revolt_siege_attacker_abandon: '&b%s''de İsyan Kuşatması > İsyancı ordusu %s''ye karşı isyanı terk etti.'
+msg_suppression_siege_attacker_abandon: '&b%s''de Bastırma Kuşatması > %s ordusu saldırısını bıraktı ve kasabayı işgalden kurtardı.'
+msg_err_town_cannot_end_siege_as_no_siege: '&cYakındaki kasabada kuşatma yok. Vazgeçmek/Teslim olmak mümkün değil.'
+msg_err_town_cannot_end_siege_as_finished: '&cKuşatma bitti veya bitirilmesi planlandı. Vazgeçmek/Teslim olmak mümkün değil.'
+
+# Timed wins
+msg_conquest_siege_timed_attacker_win: '&b%s''de Fetih Kışatması > Saldıran %s ordusu %s ordusunu yendi ve kasabanın savunmasını aştı.'
+msg_liberation_siege_timed_attacker_win: '&b%s''de Kurtuluş Kuşatması > Saldıran %s ordusu işgalci %s ordusunu yendi ve kasaba halkını işgalden kurtardı.'
+msg_revolt_siege_timed_attacker_win: '&b%s''de İsyan Kuşatması > Saldıran asi ordusu işgalci %s ordusunu kovdu.'
+msg_suppression_siege_timed_attacker_win: '&b%s''de Bastırma Kuşatması > İşgalci %s ordusu, kasabadaki isyancı faaliyetlerini başarıyla bastırdı.'
+msg_conquest_siege_timed_defender_win: '&b%s''de Fetih Kışatması > %s''in savunan ordusu %s ordusunu mağlup etti ve saldırganları uzaklaştırdı.'
+msg_liberation_siege_timed_defender_win: '&b%s''de Kurtuluş Kuşatması > İşgalci %s ordusu %s ordusunu yendi ve kasabanın kurtuluşunu başarıyla engelledi.'
+msg_revolt_siege_timed_defender_win: '&b%s''de İsyan Kuşatması > İşgalci %s ordusu saldıran isyancıları yendi ve isyanı bastırdı.'
+msg_suppression_siege_timed_defender_win: '&b%s''de Bastırma Kuşatması > Savunma ordusu %s, %s ordusunu yendi, baskı girişimini engelledi ve işgalden kurtuldu.'
+
+# Generic Victory messages
+msg_immediate_attacker_victory: " Saldırganlar galip geldi!"
+msg_pending_attacker_victory: " Saldırganın zaferi %s saniye içinde onaylanacak."
+msg_immediate_defender_victory: " Savunmacılar galip geldi!"
+msg_pending_defender_victory: " Savunmacının zaferi %s saniye içinde onaylanacak."
+
+# Invasions
+msg_err_cannot_invade_own_town: '&cKendi şehrinizi istila edemezsiniz.'
+msg_err_cannot_invade_without_victory: "&cUlusunuz kuşatmada galip gelmedikçe kasabayı işgal edemezsiniz.."
+msg_err_cannot_invade_siege_still_in_progress: '&cKuşatma devam ederken istila edemezsiniz.'
+msg_err_cannot_invade_town_already_occupied: '&cİstila etmeye gerek yok çünkü ulusunuz zaten şehri işgal ediyor.'
+msg_err_cannot_invade_town_already_invaded: '&cUlusun şehri çoktan işgal etti.'
+msg_neutral_town_invaded: '&b%s, %s tarafından işgal edildi ve işgal altına alındı!'
+msg_nation_town_invaded: '&b%s grubuna ait %s, %s tarafından işgal edildi ve işgal altına alındı!'
+
+# Plunder
+msg_err_siege_war_plunder_not_possible_rebels_won: '&cKasabadaki isyancılar kuşatmayı kazandığı için yağma mümkün değil.'
+
+# Releasing towns from occupation
+msg_err_cannot_release_town_not_occupied_by_nation: '&cKasabayı bırakamazsınız çünkü ulusunuz tarafından işgal edilmemiş..'
+msg_err_cannot_release_besieged_town: '&cKasaba işgalden çıkarıldı. Kuşatılmış bir kasabayı %s ile serbest bırakamazsınız..'
+msg_town_released_from_occupation: 'Kasaba %s tarafından işgalden çıkarıldı.'
+msg_foreign_town_released_from_occupation: 'Ulus %s kasabasını işgalden kurtardı.'
+
+# Help
+nation_help_14 : 'Verilen kasabayı işgalden kurtarın.'
+
+# Peaceful towns
+msg_town_became_peaceful: '&b%s Barışçıl olarak onaylandı. Kasaba artık kuşatma saldırılarına karşı bağışık. Kasaba, yerel bölgede güçlü bir varlığı olan bir ulus tarafından otomatik olarak işgal edilebilir. (daha fazla ayrıntı için kullanım kılavuzuna bakın). Sakinler kuşatma bölgelerine giremez veya ulusal-askeri rütbeler kazanamaz.'
+msg_town_became_non_peaceful: '&b%s Barışçıl Değil olarak onaylandı. Kasaba artık kuşatma saldırılarına karşı barışçıl değil. Kasaba artık otomatik olarak işgal edilemez. Sakinleri kuşatma bölgelerine girebilir ve ulusal-askeri rütbeler kazanabilir.'
+msg_town_returned_to_pre_peaceful_occupier: " Kasaba, barışçıl bir hale gelmeden önce sahip olduğu işgalciye geri döndü - %s."
+
+msg_peaceful_town_total_switches: '&b%d barışçıl kasaba %s %s barışçıl işgal edildi veya işgalden serbest bırakıldı.'
+
+msg_your_town_peacefully_occupied: "&bKasabanız %s tarafından barışçıl bir şekilde işgal edildi."
+msg_home_town_peacefully_occupied: "&bBir memleket, %s barış içinde %s tarafından işgal edildi."
+msg_foreign_town_peacefully_occupied: "&bYabancı bir kasaba, %s, ulusunuz tarafından barışçıl bir şekilde işgal edildi."
+
+msg_your_town_peacefully_released: "&bKasabanız %s tarafından barışçıl bir şekilde işgalden çıkarıldı."
+msg_home_town_peacefully_released: "&bBir memleket, %s, %s tarafından işgalden barışçıl bir şekilde serbest bırakıldı."
+msg_foreign_town_peacefully_released: "&bYabancı bir kasaba, %s ulus tarafından işgalden barışçıl bir şekilde serbest bırakıldı."
+
+# Admin commands
+msg_err_swa_cannot_set_invade_due_to_siege_type: '&cBu tür kuşatma için işgal edilmiş bayrağı ayarlayamazsınız..'
+msg_err_swa_cannot_change_occupier_due_to_active_siege: '&cKasabada aktif bir kuşatma varsa işgalciyi değiştiremezsiniz.'
+msg_err_swa_home_nation_cannot_be_occupier: '&cKasabaların vatanını işgalci olarak ayarlayamazsınız.'
+msg_swa_set_invade_success: '&b%s için işgal edilenleri %s olarak ayarlayın.'
+msg_swa_town_occupation_removal_success: '&bİşgalci kasaba %s için kaldırıldı.'
+msg_swa_town_occupation_change_success: '&bİşgalci kasaba %s, %s olarak değiştirildi.'
+
+# Added in 0.16
+
+#Nation war history
+status_nation_town_stats: '&2Kasaba İstilası Tarihi - Yabancı/Ev: &a%d&2/&a%d'
+status_nation_plunder_stats: '&2Kasaba Yağma Tarihi - Kazançlar/Kayıplar: &a%d&2/&a%d'
+
+#Siege effects
+msg_err_siege_war_cannot_spawn_into_siegezone_or_besieged_town: '&cSadece kasaba sakinleri kuşatma altındaki bir kasabaya veya kuşatma bölgesine girebilir.'
+
+#All-Nation-Sieges
+msg_err_siege_affected_home_nation_cannot_recruit: "&cUlus yeni şehirler ekleyemez, çünkü memleketlerinden biri kuşatma saldırısı altındadır."
+msg_err_siege_affected_home_nation_town_cannot_toggle_pvp: "&cPVP durumu değiştirilemez, çünkü ülkenizin memleketlerinden biri kuşatma saldırısı altında."
+msg_err_siege_affected_home_nation_town_cannot_recruit: "&cKasaba yeni sakinler ekleyemez, çünkü ülkesinin memleketlerinden biri kuşatma saldırısı altındadır.."
+msg_err_siege_affected_home_nation_town_cannot_claim: "&cToprak talep edemezsiniz, çünkü ülkenizin memleketlerinden biri kuşatma saldırısı altında."
+msg_err_siege_affected_home_nation_town_cannot_unclaim: "&cArazi hak talebinde bulunamazsınız, çünkü ulusunuzun memleketlerinden biri kuşatma saldırısı altında."
+msg_err_cannot_start_siege_because_towns_home_nation_has_besieged_town: "&cBu ulus kasabasında kuşatma başlatılamaz, çünkü ülkesinin memleketlerinden biri zaten kuşatma saldırısı altında."
+
+# Added in 0.17
+
+#Peaceful towns
+msg_err_peaceful_town_cannot_move_homeblock: "&cBarışçıl kasabalar ana bloklarını hareket ettiremezler. Ana bloğunuzu taşımak istiyorsanız, önce sükuneti kapatın."
+
+# Added in 0.18
+
+# Homeblock move restrictions
+msg_err_besieged_town_cannot_move_homeblock: "&cKuşatılmış kasabalar ana bloklarını hareket ettiremez."
+msg_err_occupied_town_cannot_move_homeblock: "&cİşgal altındaki kasabalar ana bloklarını hareket ettiremez."
